@@ -10,7 +10,7 @@ step 2 : Launch one ubuntu instance and connect this instance
 
 step 3 : After that install docker on terminal and then clone the github repo
 
-step 4 : And use the Command -- docker-compose up then it creates the containers 
+step 4 : And use the Command -- 'docker-compose up' then it creates the containers 
 
 step 5 : Open your browser and go to: http://localhostIP:3000 - (default login is admin / admin) to access grafana and to acess 
          prometheus use : http://localhostIP:9090
