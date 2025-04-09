@@ -33,6 +33,12 @@ step 7 :  Import Docker Dashboard
             Click Load.
             Under “Prometheus” dropdown, select the Prometheus data source you added earlier.
             Click Import.
+<img width="945" alt="{2024516E-DDD6-4DD5-9DA2-D2720243D36C}" src="https://github.com/user-attachments/assets/e8dc6c6b-3931-4d2c-88f2-88e71b2db874" />
+<img width="960" alt="{BDDD8EB5-01FF-4F41-8A0D-EF65536E467C}" src="https://github.com/user-attachments/assets/41c63151-8d78-4e3a-a227-9a25f69892cd" />
+<img width="956" alt="{0E2DFA87-BECE-41EC-B88B-DF06D3DA52E4}" src="https://github.com/user-attachments/assets/8db7cfbf-9ddd-46a4-b089-196fb5e877b0" />
+<img width="959" alt="{5A33C695-AF69-4539-8D3D-AC2A3CBED133}" src="https://github.com/user-attachments/assets/4f1978df-85de-4037-a085-49121e73b8de" />
+
+
 
 
 
