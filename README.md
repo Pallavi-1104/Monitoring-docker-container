@@ -1,9 +1,21 @@
 # Monitoring-docker-container
 
 step 1 : create docker-compose file to create container of prometheus, grafana and cadvisior
-            -cadvisior is a monitoring tool used to monitor docker container resource usage 
-            -prometheus scrape the metrics of cadvisior every few seconds
-            -grafana visualize metrics in dashboard
+            -cadvisior is a monitoring tool used to monitor docker container resource usage and performance of docker container for each Docker container running on a host.
+             just like Node Exporter is for your host system, cAdvisor is for your containers.
+            -Node Exporter runs on your Linux server and exposes OS-level metrics like cpu usage, memory usage, etc.
+            -MySQL Exporter runs alongside your database and exposes DB-specific metrics like Query performance, Connection stats, Table/row statistics, etc.
+            -prometheus scrape the metrics of cadvisior every few seconds and also if we use node exporter and mysql exporter then scrapes both exporters regularly and 
+             stores the data.
+            -grafana visualize metrics in dashboard.
+
+                   Tool                         	Purpose
+                   Node Exporter	          OS-level metrics from host/server
+                   MySQL Exporter	          Database-level metrics from MySQL
+                   cAdvisor	          Container-level metrics (Docker)
+                   Prometheus	          Scrapes, stores, and queries metrics
+                   Grafana	          Visualizes metrics and sets up alerts
+                   
          also create docker-monitoring.yml file for dashboard , prometheus.yml for datasource and prometheus.yml file for prometheus.
 
 step 2 : Launch one ubuntu instance and connect this instance
